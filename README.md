@@ -26,28 +26,28 @@ Applied Isolation Forest algorithm to detect abnormal customer behavior
 
 Filtered out outliers to improve clustering accuracy
 
-4. Customer Segmentation
+4. Dimensionallity Reduction
+
+Performing Dimensionallity reduction with Principal Component Analysis(PCA) by reducing columns to identify most important features.
+
+5.Customer Segmentation
 
 Used KMeans clustering based on normalized RFM features
 
 Determined optimal number of clusters using Elbow Method and Silhouette Score
 
-Assigned customers to clusters with unique behavioral traits
+Visualized distributions of key features (spending, frequency, quantity) across clusters through histograms.
 
-5. Cluster Analysis
-
-Visualized distributions of key features (spending, frequency, quantity) across clusters
-
-Labeled clusters based on inferred personas (e.g., High-Value, Loyal, At-Risk)
+Based on visuallization, drawing out observations.
 
 6. Best-Selling Product Analysis
 
-Aggregated purchase data per cluster
+Aggregated purchase data per cluster.
 
-Identified top 10 best-selling products for each cluster
+Identified top 10 best-selling products for each cluster.
 
 7. Product Recommendation System
 
-For each customer, recommended 3 products from their cluster’s top-selling list that they haven't purchased
+For each customer, recommended 3 products from their cluster’s top-selling list that they haven't purchased.
 
-Personalized, cluster-aware suggestions
+Personalized, cluster-aware suggestions.
